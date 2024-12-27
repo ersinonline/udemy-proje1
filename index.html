@@ -9,9 +9,9 @@
 <body>
     <header>
         <nav>
-            <button onclick="showSection('home')">Anasayfa</button>
-            <button onclick="showSection('about')">Hakkında</button>
-            <button onclick="showSection('contact')">İletişim</button>
+            <a href="#home">Anasayfa</a>
+            <a href="#about">Hakkında</a>
+            <a href="#contact">İletişim</a>
         </nav>
     </header>
 
@@ -20,16 +20,18 @@
         <p>Hoş geldiniz! Burada çeşitli bilgiler bulabilirsiniz.</p>
     </div>
 
-    <div id="about" class="section" style="display:none;">
+    <div id="about" class="section">
         <h1>Hakkında</h1>
         <p>Bu web sitesi hakkında kısa bir açıklama yer alacak.</p>
     </div>
 
-    <div id="contact" class="section" style="display:none;">
+    <div id="contact" class="section">
         <h1>İletişim</h1>
         <p>Bizimle iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz.</p>
     </div>
 
-    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Basit Web Sayfası. Tüm hakları saklıdır.</p>
+    </footer>
 </body>
 </html>
