@@ -12,24 +12,32 @@ header {
     text-align: center;
 }
 
-nav button {
-    background-color: #555;
-    border: none;
+nav a {
+    text-decoration: none;
     color: white;
     padding: 10px 20px;
     margin: 5px;
-    cursor: pointer;
     font-size: 16px;
+    background-color: #555;
+    border-radius: 4px;
 }
 
-nav button:hover {
+nav a:hover {
     background-color: #444;
 }
 
 .section {
-    padding: 20px;
+    padding: 50px 20px;
     margin: 20px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    scroll-margin-top: 50px; /* Sayfa kaydırması için üst boşluk ekleniyor */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
 }
