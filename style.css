@@ -11,7 +11,6 @@ body, strong, a, header {
 }
 /*------Üst Bölüm(Header)-------*/
 header.ust {
-    background: url(images/overlay.png), url(images/banner.jpg);
     position: relative;
     background-size: cover;
     width: 100%;
